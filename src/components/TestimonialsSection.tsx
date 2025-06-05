@@ -1,6 +1,6 @@
 "use client";
 
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { Container, Carousel, Row, Col, Card } from "react-bootstrap";
 
 interface Testimonial {
@@ -14,12 +14,29 @@ interface Props {
 }
 
 const TestimonialsSection: React.FC<Props> = ({ testimonials }) => {
-  const groupSize = 3;
-  const groupedTestimonials = [];
+  const [groupedTestimonials, setGroupedTestimonials] = useState<
+    Testimonial[][]
+  >([]);
 
-  for (let i = 0; i < testimonials.length; i += groupSize) {
-    groupedTestimonials.push(testimonials.slice(i, i + groupSize));
-  }
+  const groupTestimonials = (size: number) => {
+    const grouped: Testimonial[][] = [];
+    for (let i = 0; i < testimonials.length; i += size) {
+      grouped.push(testimonials.slice(i, i + size));
+    }
+    return grouped;
+  };
+
+  const updateGrouping = () => {
+    const isMobile = window.innerWidth < 768;
+    const groupSize = isMobile ? 1 : 3;
+    setGroupedTestimonials(groupTestimonials(groupSize));
+  };
+
+  useEffect(() => {
+    updateGrouping();
+    window.addEventListener("resize", updateGrouping);
+    return () => window.removeEventListener("resize", updateGrouping);
+  }, [testimonials]);
 
   return (
     <section
@@ -38,15 +55,15 @@ const TestimonialsSection: React.FC<Props> = ({ testimonials }) => {
         >
           Depoimentos
         </h2>
-        <Carousel indicators={false}>
+        <Carousel indicators={false} interval={10000}>
           {groupedTestimonials.map((group, idx) => (
             <Carousel.Item key={idx}>
               <Row className="justify-content-center">
                 {group.map((item, index) => (
                   <Col
-                    md={4}
-                    sm={12}
                     key={index}
+                    xs={12}
+                    md={4}
                     className="d-flex justify-content-center mb-4"
                   >
                     <Card
@@ -59,25 +76,43 @@ const TestimonialsSection: React.FC<Props> = ({ testimonials }) => {
                         borderRadius: "12px",
                       }}
                     >
-                      <Card.Body className="text-center">
+                      <Card.Body className="text-center p-4">
                         <img
                           src={item.image}
                           alt={item.author}
                           style={{
-                            width: "100px",
-                            height: "100px",
+                            width: "90px",
+                            height: "90px",
                             borderRadius: "50%",
                             objectFit: "cover",
                             marginBottom: "1rem",
                           }}
                         />
                         <Card.Text
-                          style={{ fontStyle: "italic", color: "#5a4334" }}
+                          style={{
+                            fontStyle: "italic",
+                            color: "#5a4334",
+                            fontSize: "0.95rem",
+                            marginBottom: "0.5rem",
+                          }}
                         >
                           “{item.text}”
                         </Card.Text>
+                        <div
+                          style={{
+                            color: "#f4c542",
+                            fontSize: "1.1rem",
+                            marginBottom: "0.4rem",
+                          }}
+                        >
+                          ★★★★★
+                        </div>
                         <Card.Subtitle
-                          style={{ color: "#8a5a44", marginTop: "10px" }}
+                          style={{
+                            color: "#8a5a44",
+                            fontWeight: "bold",
+                            fontSize: "0.95rem",
+                          }}
                         >
                           {item.author}
                         </Card.Subtitle>
