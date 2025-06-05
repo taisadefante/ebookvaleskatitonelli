@@ -20,7 +20,7 @@ const EbookValeskaPage = () => {
       <HeroSection
         title="Descubra os segredos da argiloterapia capilar"
         subtitle="Transforme a saúde do seu couro cabeludo e fios com técnicas naturais e eficazes."
-        ctaText="Comprar com segurança na Hotmart"
+        ctaText="Quero Começar Agora"
         backgroundImage="/fundo-hero.png"
         textColor="#462c1f"
         buttonColor="#8a5a44"
