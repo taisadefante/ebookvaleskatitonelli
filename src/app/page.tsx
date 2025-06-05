@@ -84,12 +84,6 @@ const EbookValeskaPage = () => {
             image:
               "https://images.unsplash.com/photo-1517841905240-472988babdf9?w=300&h=300&fit=crop",
           },
-          {
-            text: "Comecei a aplicar nas minhas clientes e os resultados foram incríveis!",
-            author: "Luciana R. — Cabeleireira",
-            image:
-              "https://images.unsplash.com/photo-1517841905240-472988babdf9?w=300&h=300&fit=crop",
-          },
         ]}
       />
 
