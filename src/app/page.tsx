@@ -1,4 +1,3 @@
-// src/pages/ebook-valeska.tsx
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import HeroSection from "../components/HeroSection";
@@ -87,9 +86,9 @@ const EbookValeskaPage = () => {
       />
 
       <PricingSection
-        originalPrice="R$ 197,00"
-        currentPrice="R$ 97,00"
-        parcelPrice="12x de R$ 9,74"
+        originalPrice="R$ 97,00"
+        currentPrice="R$ 37,00"
+        parcelPrice="10x de R$ 3,70"
         ctaText="Comprar com Desconto"
         buttonColor="#8a5a44"
         linkHotmart="https://hotmart.com/ebookargiloterapia"
@@ -128,11 +127,7 @@ const EbookValeskaPage = () => {
         ]}
       />
       <Contact whatsapp="https://wa.me/5521988359825" />
-      <Footer
-        developer="Tais Defante"
-        company="Defan Soluções Digitais"
-        year={2025}
-      />
+      <Footer />
     </div>
   );
 };
