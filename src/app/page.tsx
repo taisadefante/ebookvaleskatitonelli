@@ -18,7 +18,7 @@ const EbookValeskaPage = () => {
     <div style={{ backgroundColor: "#f2f0ec" }}>
       <HeroSection
         title="Segredos da Argiloterapia Capilar para uso pessoal e profissional"
-        subtitle="Aprenda técnicas naturais e eficazes para cuidar dos cabelos — ideal para você e para aplicar em clientes no salão."
+        subtitle="Aprenda técnicas naturais e eficazes para cuidar dos cabelos.  Ideal para você e para aplicar em clientes no salão."
         ctaText="Quero Começar Agora"
         backgroundImage="/fundo-hero.png"
         textColor="#462c1f"
