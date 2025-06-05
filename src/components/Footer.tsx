@@ -20,11 +20,12 @@ const Footer: React.FC = () => {
             <Col
               xs={12}
               md={4}
-              className="mb-3 mb-md-0 text-md-start text-center"
+              className="mb-3 mb-md-0 d-flex justify-content-center justify-content-md-start"
             >
               <img
                 src="/ebook.png"
                 alt="Ebook Argiloterapia"
+                className="img-fluid"
                 style={{
                   height: "80px",
                   objectFit: "contain",

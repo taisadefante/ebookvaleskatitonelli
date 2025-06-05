@@ -17,8 +17,8 @@ const EbookValeskaPage = () => {
   return (
     <div style={{ backgroundColor: "#f2f0ec" }}>
       <HeroSection
-        title="Descubra os segredos da argiloterapia capilar"
-        subtitle="Transforme a saúde do seu couro cabeludo e fios com técnicas naturais e eficazes."
+        title="Segredos da Argiloterapia Capilar para uso pessoal e profissional"
+        subtitle="Aprenda técnicas naturais e eficazes para cuidar dos cabelos — ideal para você e para aplicar em clientes no salão."
         ctaText="Quero Começar Agora"
         backgroundImage="/fundo-hero.png"
         textColor="#462c1f"
@@ -27,7 +27,7 @@ const EbookValeskaPage = () => {
       />
 
       <VideoSection
-        title="Assista ao vídeo e entenda como o eBook pode transformar seu cabelo"
+        title="Veja como o eBook pode transformar seus cuidados ou seu atendimento profissional"
         videoSrc="/videos/video.mp4"
       />
 
@@ -40,6 +40,7 @@ const EbookValeskaPage = () => {
           "Controle de oleosidade e caspa",
           "Estímulo ao crescimento capilar",
           "Uso terapêutico com argilas específicas",
+          "Atendimento mais profissional e diferenciado para seus clientes",
         ]}
       />
       <FeaturesSection
@@ -48,6 +49,7 @@ const EbookValeskaPage = () => {
           "Passo a passo da aplicação",
           "Combinações com óleos e extratos naturais",
           "Contraindicações e erros comuns",
+          "Dicas exclusivas para aplicar em clientes e elevar seu serviço",
         ]}
       />
       <TestimonialsSection
@@ -82,6 +84,12 @@ const EbookValeskaPage = () => {
             image:
               "https://images.unsplash.com/photo-1517841905240-472988babdf9?w=300&h=300&fit=crop",
           },
+          {
+            text: "Comecei a aplicar nas minhas clientes e os resultados foram incríveis!",
+            author: "Luciana R. — Cabeleireira",
+            image:
+              "https://images.unsplash.com/photo-1517841905240-472988babdf9?w=300&h=300&fit=crop",
+          },
         ]}
       />
 
@@ -95,7 +103,7 @@ const EbookValeskaPage = () => {
       />
       <CallToAction
         title="Garanta já o seu acesso!"
-        subtitle="Aproveite o preço promocional antes que acabe."
+        subtitle="Ideal para uso pessoal e também para quem quer oferecer um serviço diferenciado no salão."
         ctaText="Quero Me Inscrever"
         linkHotmart="https://hotmart.com/seu-link"
         backgroundImage="/fundo.png"
@@ -123,6 +131,11 @@ const EbookValeskaPage = () => {
             question: "Funciona para qualquer tipo de cabelo?",
             answer:
               "Sim! As técnicas podem ser adaptadas para cada necessidade.",
+          },
+          {
+            question: "Sou cabeleireiro(a), esse conteúdo é útil para o salão?",
+            answer:
+              "Sim! O conteúdo é ideal para você aplicar profissionalmente, oferecendo um serviço mais natural, terapêutico e valorizado.",
           },
         ]}
       />
