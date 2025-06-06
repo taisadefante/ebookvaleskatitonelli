@@ -40,7 +40,7 @@ const SobreValeskaSection: React.FC = () => (
           <p
             style={{ fontSize: "1.1rem", color: "#5a4334", lineHeight: "1.7" }}
           >
-            Sou Valeska Titnetti, mãe de três filhos, cabeleireira há mais de 13
+            Sou Valeska Titnelli, mãe de três filhos, cabeleireira há mais de 13
             anos, especialista em colorimetria e terapeuta capilar, encontrei na
             beleza uma missão: transformar vidas por meio do cuidado, autoestima
             e amor pelo que faço.
