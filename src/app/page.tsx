@@ -90,9 +90,9 @@ const EbookValeskaPage = () => {
       />
 
       <PricingSection
-        originalPrice="R$ 97,00"
-        currentPrice="R$ 37,00"
-        parcelPrice="10x de R$ 3,70"
+        originalPrice="R$ 49,90,00"
+        currentPrice="R$ 19,90"
+        parcelPrice=""
         ctaText="Comprar com Desconto"
         buttonColor="#8a5a44"
         linkHotmart="https://hotmart.com/ebookargiloterapia"
