@@ -74,6 +74,18 @@ const EbookValeskaPage = () => {
             text: "Nunca imaginei que argila ajudaria tanto meu cabelo!",
             author: "Renata G.",
           },
+          {
+            text: "Esse eBook foi um divisor de águas para mim! Sofria com caspa e sensibilidade no couro cabeludo, e com as receitas e dicas de argiloterapia, senti uma melhora absurda. Recomendo muito!",
+            author: "Ana Silva ",
+          },
+          {
+            text: "Simplesmente maravilhoso! Sempre quis aprender sobre argiloterapia capilar, mas nunca encontrava informações completas e confiáveis.",
+            author: "Vanessa Andrade ",
+          },
+          {
+            text: "Estava perdida sobre qual argila usar para o meu tipo de cabelo, e esse eBook me salvou!",
+            author: "Marta Nascimento ",
+          },
         ]}
       />
 
