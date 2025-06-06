@@ -6,7 +6,6 @@ import { Container, Carousel, Row, Col, Card } from "react-bootstrap";
 interface Testimonial {
   text: string;
   author: string;
-  image: string;
 }
 
 interface Props {
@@ -77,17 +76,6 @@ const TestimonialsSection: React.FC<Props> = ({ testimonials }) => {
                       }}
                     >
                       <Card.Body className="text-center p-4">
-                        <img
-                          src={item.image}
-                          alt={item.author}
-                          style={{
-                            width: "90px",
-                            height: "90px",
-                            borderRadius: "50%",
-                            objectFit: "cover",
-                            marginBottom: "1rem",
-                          }}
-                        />
                         <Card.Text
                           style={{
                             fontStyle: "italic",

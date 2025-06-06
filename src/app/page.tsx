@@ -57,32 +57,22 @@ const EbookValeskaPage = () => {
           {
             text: "Minha autoestima voltou depois que comecei a usar as técnicas do ebook!",
             author: "Juliana S.",
-            image:
-              "https://images.unsplash.com/photo-1607746882042-944635dfe10e?w=300&h=300&fit=crop",
           },
           {
             text: "Informações claras e transformadoras!",
             author: "Fernanda M.",
-            image:
-              "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=300&h=300&fit=crop",
           },
           {
             text: "Já recomendei para todas as minhas amigas!",
             author: "Camila R.",
-            image:
-              "https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?w=300&h=300&fit=crop",
           },
           {
             text: "Simplesmente amei o conteúdo! Vale cada centavo.",
             author: "Daniela A.",
-            image:
-              "https://images.unsplash.com/photo-1531123897727-8f129e1688ce?w=300&h=300&fit=crop",
           },
           {
             text: "Nunca imaginei que argila ajudaria tanto meu cabelo!",
             author: "Renata G.",
-            image:
-              "https://images.unsplash.com/photo-1517841905240-472988babdf9?w=300&h=300&fit=crop",
           },
         ]}
       />
