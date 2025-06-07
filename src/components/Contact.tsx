@@ -2,13 +2,9 @@
 
 import React from "react";
 import { Container } from "react-bootstrap";
-import { FaWhatsapp } from "react-icons/fa";
+import { FaInstagram } from "react-icons/fa";
 
-interface Props {
-  whatsapp: string;
-}
-
-const Contact: React.FC<Props> = ({ whatsapp }) => (
+const Contact: React.FC = () => (
   <div
     style={{
       backgroundImage: "url('/fundo3.png')",
@@ -16,23 +12,24 @@ const Contact: React.FC<Props> = ({ whatsapp }) => (
       backgroundPosition: "center",
       padding: "80px 20px",
       textAlign: "center",
-      color: "#3e2d26", // tom escuro elegante
+      color: "#3e2d26",
     }}
   >
     <Container>
       <h2 style={{ fontWeight: "bold", marginBottom: "20px" }}>
-        Está com alguma dúvida?
+        Entre em contato comigo
       </h2>
       <p style={{ fontSize: "1.1rem", marginBottom: "30px" }}>
-        Fale conosco agora pelo WhatsApp e teremos o maior prazer em te ajudar!
+        Me chame no Instagram para tirar dúvidas ou acompanhar meu trabalho de
+        perto!
       </p>
 
       <a
-        href={whatsapp}
+        href="https://www.instagram.com/studiovaleskatitonelli?igsh=MTJ0dTdqMnY3bGc0NA"
         target="_blank"
         rel="noopener noreferrer"
         style={{
-          backgroundColor: "#8a5a44", // tom terroso elegante
+          backgroundColor: "#8a5a44",
           color: "#fff",
           padding: "14px 32px",
           borderRadius: "30px",
@@ -46,8 +43,8 @@ const Contact: React.FC<Props> = ({ whatsapp }) => (
           animation: "pulse 2.5s infinite",
         }}
       >
-        <FaWhatsapp size={22} />
-        Tirar minha dúvida
+        <FaInstagram size={22} />
+        Instagram da Valeska
       </a>
     </Container>
 

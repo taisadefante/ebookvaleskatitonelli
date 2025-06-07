@@ -23,7 +23,7 @@ const EbookValeskaPage = () => {
         backgroundImage="/fundo-hero.png"
         textColor="#462c1f"
         buttonColor="#8a5a44"
-        linkHotmart="https://hotmart.com/ebookargiloterapia"
+        linkHotmart="https://pay.hotmart.com/F100157059H"
       />
 
       <VideoSection
@@ -90,18 +90,18 @@ const EbookValeskaPage = () => {
       />
 
       <PricingSection
-        originalPrice="R$ 49,90,00"
-        currentPrice="R$ 19,90"
+        originalPrice="R$ 59,90,00"
+        currentPrice="R$ 29,90"
         parcelPrice=""
         ctaText="Comprar com Desconto"
         buttonColor="#8a5a44"
-        linkHotmart="https://hotmart.com/ebookargiloterapia"
+        linkHotmart="https://pay.hotmart.com/F100157059H"
       />
       <CallToAction
         title="Garanta já o seu acesso!"
         subtitle="Ideal para uso pessoal e também para quem quer oferecer um serviço diferenciado no salão."
         ctaText="Quero Me Inscrever"
-        linkHotmart="https://hotmart.com/seu-link"
+        linkHotmart="https://pay.hotmart.com/F100157059H"
         backgroundImage="/fundo.png"
         buttonColor="#8a5a44"
         textColor="#fff"

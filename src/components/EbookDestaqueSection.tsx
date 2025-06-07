@@ -51,7 +51,7 @@ const EbookDestaqueSection: React.FC = () => (
             transformação capilar pessoal ou profissional.
           </p>
           <Button
-            href="https://hotmart.com/ebookargiloterapia"
+            href="https://pay.hotmart.com/F100157059H"
             target="_blank"
             style={{
               backgroundColor: "#8a5a44",
