@@ -135,7 +135,7 @@ const EbookValeskaPage = () => {
           },
         ]}
       />
-      <Contact whatsapp="https://wa.me/5521988359825" />
+      <Contact />
       <Footer />
     </div>
   );
