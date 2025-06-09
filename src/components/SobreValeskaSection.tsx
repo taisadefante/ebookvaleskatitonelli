@@ -56,8 +56,8 @@ const SobreValeskaSection: React.FC = () => (
                 lineHeight: "1.7",
               }}
             >
-              Sou Valeska Titonelli, mãe de três filhos, cabeleireira há mais de
-              13 anos, especialista em colorimetria e terapeuta capilar,
+              Sou Valeska Titonelli, casada, mãe de três filhos, cabeleireira há
+              mais de 13 anos, especialista em colorimetria e terapeuta capilar,
               encontrei na beleza uma missão: transformar vidas por meio do
               cuidado, autoestima e amor pelo que faço.
             </p>

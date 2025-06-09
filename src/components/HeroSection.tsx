@@ -5,7 +5,6 @@ import { Container, Button } from "react-bootstrap";
 
 interface Props {
   title: string;
-  subtitle: string;
   ctaText: string;
   backgroundImage: string;
   textColor: string;
@@ -15,7 +14,6 @@ interface Props {
 
 const HeroSection: React.FC<Props> = ({
   title,
-  subtitle,
   ctaText,
   backgroundImage,
   textColor,
@@ -52,8 +50,32 @@ const HeroSection: React.FC<Props> = ({
       </style>
 
       <Container>
-        <h1 style={{ fontWeight: "bold" }}>{title}</h1>
-        <p style={{ fontSize: "1.25rem" }}>{subtitle}</p>
+        <h1 style={{ fontWeight: "bold", fontSize: "2.6rem" }}>{title}</h1>
+
+        {/* Subtítulo separado e centralizado */}
+        <h2
+          style={{
+            fontSize: "2rem",
+            fontWeight: "bold",
+            marginTop: "20px",
+            color: "#8a5a44",
+          }}
+        >
+          Quer aumentar seu ticket médio?
+        </h2>
+
+        {/* Texto explicativo abaixo do subtítulo */}
+        <p
+          style={{
+            fontSize: "1.5rem",
+            fontWeight: 500,
+            maxWidth: "800px",
+            margin: "20px auto 0",
+          }}
+        >
+          Domine a Argiloterapia para Couro Cabeludo com nosso e-book completo!
+        </p>
+
         <Button
           href={linkHotmart}
           target="_blank"
@@ -61,9 +83,11 @@ const HeroSection: React.FC<Props> = ({
           style={{
             backgroundColor: buttonColor,
             border: "none",
-            padding: "10px 30px",
+            padding: "12px 36px",
             fontSize: "1.2rem",
-            marginTop: "20px",
+            marginTop: "30px",
+            fontWeight: "bold",
+            borderRadius: "8px",
           }}
         >
           {ctaText}
