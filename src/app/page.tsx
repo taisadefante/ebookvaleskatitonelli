@@ -22,22 +22,23 @@ const EbookValeskaPage = () => {
   return (
     <>
       <Head>
-        <title>Argiloterapia Profissional | Valeska Titonelli</title>
+        <title>Argiloterapia Capilar Profissional | Valeska Titonelli</title>
         <meta
           name="description"
-          content="Domine a argiloterapia capilar com técnicas naturais e eficazes para atender clientes no salão com mais qualidade e diferenciação."
+          content="Domine a argiloterapia capilar com o eBook da Valeska Titonelli. Técnicas naturais e eficazes para atendimento em salão e clínicas capilares."
         />
         <meta
           name="keywords"
-          content="argiloterapia profissional, ebook, salão de beleza, couro cabeludo, Valeska Titonelli"
+          content="argiloterapia capilar, ebook, salão de beleza, couro cabeludo, tratamento natural, profissional, Valeska Titonelli"
         />
+        <meta name="robots" content="index, follow" />
         <meta name="author" content="Valeska Titonelli" />
         <meta httpEquiv="content-language" content="pt-BR" />
         <meta property="og:type" content="product" />
         <meta property="og:title" content="Ebook Argiloterapia Profissional" />
         <meta
           property="og:description"
-          content="Aprimore seu atendimento profissional com técnicas naturais para couro cabeludo e cabelos com o eBook da Valeska Titonelli."
+          content="Aprenda a aplicar argilas terapêuticas com segurança e eficiência no salão. Diferencie seu atendimento e fidelize clientes."
         />
         <meta
           property="og:image"
@@ -47,10 +48,13 @@ const EbookValeskaPage = () => {
         <meta property="og:site_name" content="Valeska Titonelli" />
         <meta property="og:locale" content="pt_BR" />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="Argiloterapia Profissional" />
+        <meta
+          name="twitter:title"
+          content="Ebook Argiloterapia Profissional | Valeska Titonelli"
+        />
         <meta
           name="twitter:description"
-          content="Domine a argiloterapia capilar com nosso eBook completo e ofereça um serviço exclusivo no salão."
+          content="Descubra como aplicar a argiloterapia de forma terapêutica no salão e elevar o padrão do seu atendimento."
         />
         <meta
           name="twitter:image"
@@ -70,7 +74,7 @@ const EbookValeskaPage = () => {
         >
           <HeroSection
             title="Argiloterapia Capilar Profissional"
-            subtitle="Aprenda a aplicar argilas terapêuticas de forma segura e eficaz em seus atendimentos no salão. Valorize seu serviço e conquiste mais clientes."
+            subtitle="Aprenda técnicas naturais e terapêuticas para aplicar com segurança e diferenciação no seu atendimento no salão."
             ctaText="Quero Atender com Excelência"
             backgroundImage="/fundo-hero.png"
             textColor="#462c1f"
@@ -86,7 +90,7 @@ const EbookValeskaPage = () => {
           viewport={{ once: true }}
         >
           <VideoSection
-            title="Veja como o eBook pode elevar seu atendimento profissional com argiloterapia"
+            title="Veja como o eBook pode transformar seu atendimento profissional com argiloterapia"
             videoSrc="/videos/video.mp4"
           />
         </motion.div>
@@ -117,11 +121,11 @@ const EbookValeskaPage = () => {
         >
           <BenefitsSection
             benefits={[
-              "Revitalização profunda do couro cabeludo dos seus clientes",
-              "Tratamento natural contra oleosidade e caspa no salão",
-              "Técnicas que estimulam o crescimento capilar profissionalmente",
-              "Argilas específicas com aplicações terapêuticas",
-              "Serviço exclusivo e diferenciado no seu portfólio profissional",
+              "Revitalização do couro cabeludo com argilas naturais",
+              "Redução da oleosidade e caspa em clientes",
+              "Estímulo ao crescimento capilar em atendimentos profissionais",
+              "Argilas terapêuticas com aplicações específicas",
+              "Diferencial competitivo no seu serviço de salão",
             ]}
           />
         </motion.div>
@@ -134,29 +138,13 @@ const EbookValeskaPage = () => {
         >
           <FeaturesSection
             features={[
-              "Como escolher e usar cada tipo de argila no salão",
-              "Passo a passo completo para aplicar em clientes",
-              "Combinações com ativos naturais para resultados melhores",
-              "Contraindicações e cuidados essenciais",
-              "Técnicas para elevar seu atendimento e fidelizar clientes",
+              "Tipos de argilas e suas funções terapêuticas",
+              "Passo a passo detalhado para aplicação no salão",
+              "Misturas com óleos e extratos para potencializar resultados",
+              "Contraindicações e cuidados importantes",
+              "Dicas para fidelizar clientes com um atendimento diferenciado",
             ]}
           />
-        </motion.div>
-
-        {/* TEXTO ESTRATÉGICO INSERIDO AQUI */}
-        <motion.div
-          initial={{ opacity: 0, y: 30 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.6, delay: 0.55 }}
-          viewport={{ once: true }}
-        >
-          <div style={{ padding: "40px 20px", textAlign: "center" }}>
-            <h3 style={{ fontWeight: "bold", color: "#8a5a44" }}>
-              Quer aumentar seu ticket médio? <br />
-              Domine a Argiloterapia para Couro Cabeludo com nosso e-book
-              completo!
-            </h3>
-          </div>
         </motion.div>
 
         <motion.div
@@ -165,6 +153,43 @@ const EbookValeskaPage = () => {
           transition={{ duration: 0.6, delay: 0.6 }}
           viewport={{ once: true }}
         >
+          <TestimonialsSection
+            testimonials={[
+              {
+                text: "Esse eBook mudou completamente meu atendimento no salão. Me sinto mais segura e as clientes amaram!",
+                author: "Juliana S.",
+              },
+              {
+                text: "Finalmente um conteúdo confiável e direto ao ponto sobre argiloterapia profissional.",
+                author: "Fernanda M.",
+              },
+              {
+                text: "A aplicação das argilas se tornou um diferencial no meu serviço!",
+                author: "Camila R.",
+              },
+              {
+                text: "Ganhei confiança e consegui aumentar meu ticket médio com esse novo serviço.",
+                author: "Daniela A.",
+              },
+            ]}
+          />
+        </motion.div>
+
+        <motion.div
+          initial={{ opacity: 0, y: 30 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.6, delay: 0.7 }}
+          viewport={{ once: true }}
+        >
+          {/* Destaque estratégico para aumento de ticket médio */}
+          <div style={{ padding: "40px 20px", textAlign: "center" }}>
+            <h3 style={{ fontWeight: "bold", color: "#8a5a44" }}>
+              Quer aumentar seu ticket médio? <br />
+              Domine a Argiloterapia para Couro Cabeludo com nosso e-book
+              completo!
+            </h3>
+          </div>
+
           <PricingSection
             originalPrice="R$ 59,90"
             currentPrice="R$ 29,90"
@@ -178,13 +203,13 @@ const EbookValeskaPage = () => {
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.6, delay: 0.7 }}
+          transition={{ duration: 0.6, delay: 0.8 }}
           viewport={{ once: true }}
         >
           <CallToAction
-            title="Garanta seu eBook e destaque-se no mercado!"
-            subtitle="Aprenda a aplicar argiloterapia profissionalmente e ofereça um serviço valorizado e natural no seu salão."
-            ctaText="Quero Me Destacar no Salão"
+            title="Garanta já o seu acesso!"
+            subtitle="Comece agora a aplicar argiloterapia profissional e transforme seus atendimentos com técnicas valorizadas no mercado."
+            ctaText="Quero me destacar no salão"
             linkHotmart="https://pay.hotmart.com/F100157059H"
             backgroundImage="/fundo.png"
             buttonColor="#8a5a44"
@@ -195,36 +220,35 @@ const EbookValeskaPage = () => {
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.6, delay: 0.8 }}
+          transition={{ duration: 0.6, delay: 0.9 }}
           viewport={{ once: true }}
         >
           <FAQSection
             faqs={[
               {
-                question: "Preciso ter experiência com argilas?",
+                question: "Preciso ter conhecimento prévio sobre argilas?",
                 answer:
-                  "Não! O conteúdo é didático e ensina desde o básico até técnicas avançadas para uso profissional.",
+                  "Não! O eBook ensina tudo passo a passo para uso profissional.",
               },
               {
-                question: "Funciona para cabelos com química?",
+                question: "É indicado para clientes com química?",
                 answer:
-                  "Sim! Você aprenderá quais argilas são compatíveis e como aplicá-las corretamente.",
+                  "Sim! Você aprenderá a escolher e aplicar com segurança mesmo em cabelos quimicamente tratados.",
               },
               {
                 question: "Quando recebo o acesso?",
                 answer:
-                  "O acesso é imediato após a confirmação de pagamento via Hotmart.",
+                  "Imediatamente após a confirmação do pagamento pela Hotmart.",
               },
               {
-                question:
-                  "Sou cabeleireiro(a), esse conteúdo é útil para o salão?",
+                question: "Posso aplicar esse conhecimento no meu salão?",
                 answer:
-                  "Sim! O material foi criado especialmente para uso profissional em salões e clínicas de estética.",
+                  "Sim! O conteúdo foi desenvolvido especificamente para uso em atendimentos profissionais.",
               },
               {
-                question: "Consigo aumentar meu ticket médio com esse serviço?",
+                question: "Esse serviço ajuda a valorizar meu atendimento?",
                 answer:
-                  "Sim! A argiloterapia é uma técnica diferenciada e valorizada, ideal para atrair e fidelizar clientes.",
+                  "Com certeza! A argiloterapia agrega valor ao seu serviço e ajuda a fidelizar clientes.",
               },
             ]}
           />
@@ -233,7 +257,7 @@ const EbookValeskaPage = () => {
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.6, delay: 0.9 }}
+          transition={{ duration: 0.6, delay: 1.0 }}
           viewport={{ once: true }}
         >
           <Contact />
