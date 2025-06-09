@@ -73,9 +73,9 @@ const EbookValeskaPage = () => {
           viewport={{ once: true }}
         >
           <HeroSection
-            title="Argiloterapia Capilar Profissional"
-            subtitle="Aprenda técnicas naturais e terapêuticas para aplicar com segurança e diferenciação no seu atendimento no salão."
-            ctaText="Quero Atender com Excelência"
+            title="Quer aumentar seu ticket médio?"
+            subtitle="Domine a Argiloterapia para Couro Cabeludo com nosso e-book completo e transforme seu atendimento no salão!"
+            ctaText="Quero me destacar com Argiloterapia"
             backgroundImage="/fundo-hero.png"
             textColor="#462c1f"
             buttonColor="#8a5a44"
