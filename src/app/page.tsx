@@ -75,25 +75,29 @@ const EbookValeskaPage = () => {
           <HeroSection
             title="Argiloterapia Capilar Profissional"
             subtitle={
-              <span
-                style={{
-                  display: "block",
-                  fontSize: "1.8rem",
-                  fontWeight: "600",
-                }}
-              >
-                <span
+              <>
+                <h2
                   style={{
                     color: "#8a5a44",
                     fontSize: "2rem",
                     fontWeight: "bold",
+                    marginBottom: "10px",
                   }}
                 >
                   Quer aumentar seu ticket médio?
-                </span>{" "}
-                Domine a Argiloterapia para Couro Cabeludo com nosso e-book
-                completo!
-              </span>
+                </h2>
+                <p
+                  style={{
+                    fontSize: "1.4rem",
+                    fontWeight: 500,
+                    maxWidth: "800px",
+                    margin: "0 auto",
+                  }}
+                >
+                  Domine a Argiloterapia para Couro Cabeludo com nosso e-book
+                  completo!
+                </p>
+              </>
             }
             ctaText="Quero me destacar no salão"
             backgroundImage="/fundo-hero.png"
@@ -201,7 +205,6 @@ const EbookValeskaPage = () => {
           transition={{ duration: 0.6, delay: 0.7 }}
           viewport={{ once: true }}
         >
-          {/* Destaque estratégico para aumento de ticket médio */}
           <div style={{ padding: "40px 20px", textAlign: "center" }}>
             <h3 style={{ fontWeight: "bold", color: "#8a5a44" }}>
               Quer aumentar seu ticket médio? <br />
