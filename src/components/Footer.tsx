@@ -53,20 +53,49 @@ const Footer: React.FC = () => {
 
             <Col
               xs={12}
-              md={4}
-              className="text-md-end text-center mt-2 mt-md-0"
+              className="mt-3"
+              style={{
+                position: "relative",
+              }}
             >
-              <small style={{ color: "#8a5a44", fontWeight: "bold" }}>
+              <div
+                style={{
+                  position: "absolute",
+                  bottom: 0,
+                  right: 0,
+                  paddingRight: "10px",
+                  fontSize: "11px",
+                  color: "#8a5a44",
+                  textAlign: "right",
+                }}
+              >
                 Desenvolvido por{" "}
                 <a
                   href="https://defan.com.br"
                   target="_blank"
                   rel="noopener noreferrer"
-                  style={{ color: "#8a5a44", textDecoration: "underline" }}
+                  style={{
+                    color: "#8a5a44",
+                    textDecoration: "underline",
+                    fontWeight: 500,
+                  }}
                 >
                   Defan Soluções Digitais
+                </a>{" "}
+                – Desenvolvedora{" "}
+                <a
+                  href="https://taisdefante.defan.com.br"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  style={{
+                    color: "#8a5a44",
+                    textDecoration: "underline",
+                    fontWeight: 500,
+                  }}
+                >
+                  Tais Defante
                 </a>
-              </small>
+              </div>
             </Col>
           </Row>
         </Container>
