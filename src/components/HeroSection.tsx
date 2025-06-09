@@ -5,6 +5,7 @@ import { Container, Button } from "react-bootstrap";
 
 interface Props {
   title: string;
+  subtitle: React.ReactNode; // Correção: permite elementos JSX no subtítulo
   ctaText: string;
   backgroundImage: string;
   textColor: string;
@@ -14,6 +15,7 @@ interface Props {
 
 const HeroSection: React.FC<Props> = ({
   title,
+  subtitle,
   ctaText,
   backgroundImage,
   textColor,
@@ -52,29 +54,8 @@ const HeroSection: React.FC<Props> = ({
       <Container>
         <h1 style={{ fontWeight: "bold", fontSize: "2.6rem" }}>{title}</h1>
 
-        {/* Subtítulo separado e centralizado */}
-        <h2
-          style={{
-            fontSize: "2rem",
-            fontWeight: "bold",
-            marginTop: "20px",
-            color: "#8a5a44",
-          }}
-        >
-          Quer aumentar seu ticket médio?
-        </h2>
-
-        {/* Texto explicativo abaixo do subtítulo */}
-        <p
-          style={{
-            fontSize: "1.5rem",
-            fontWeight: 500,
-            maxWidth: "800px",
-            margin: "20px auto 0",
-          }}
-        >
-          Domine a Argiloterapia para Couro Cabeludo com nosso e-book completo!
-        </p>
+        {/* Subtítulo flexível */}
+        <div>{subtitle}</div>
 
         <Button
           href={linkHotmart}
