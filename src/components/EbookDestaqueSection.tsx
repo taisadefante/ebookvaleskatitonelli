@@ -33,22 +33,22 @@ const EbookDestaqueSection: React.FC = () => (
 
         <Col md={7}>
           <h2 style={{ fontWeight: "bold", color: "#8a5a44" }}>
-            A transformação capilar ideal para você ou suas clientes
+            Destaque-se no mercado com a Argiloterapia Capilar Profissional
           </h2>
           <p
             style={{ margin: "20px 0", fontSize: "1.1rem", lineHeight: "1.7" }}
           >
-            Quer cuidar do seu cabelo com saúde ou oferecer um tratamento
-            natural e eficaz no seu salão?
+            Aprenda como aplicar a argiloterapia de forma terapêutica, segura e
+            eficaz em seus atendimentos no salão.
             <br />
             <br />
-            Este eBook é para você! Descubra passo a passo como aplicar a
-            argiloterapia de forma segura e com resultados visíveis, seja em
-            casa ou profissionalmente.
+            Domine as técnicas naturais que promovem a saúde do couro cabeludo,
+            estimulem o crescimento dos fios e ofereçam uma experiência única
+            para suas clientes.
             <br />
             <br />
-            <strong>Não perca tempo!</strong> Comece agora mesmo sua jornada de
-            transformação capilar pessoal ou profissional.
+            <strong>Profissionalize seu serviço agora!</strong> Eleve o nível do
+            seu atendimento e conquiste mais reconhecimento e resultados.
           </p>
           <Button
             href="https://pay.hotmart.com/F100157059H"
@@ -64,7 +64,7 @@ const EbookDestaqueSection: React.FC = () => (
               animation: "pulse 1.8s infinite",
             }}
           >
-            Quero meu eBook agora
+            Quero me destacar agora
           </Button>
         </Col>
       </Row>
